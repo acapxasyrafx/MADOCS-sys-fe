@@ -7,20 +7,6 @@
     "_name": "_10ba9c12"
   },
   {
-    "name": "login",
-    "path": "/login",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\login.vue",
-    "chunkName": "pages/login",
-    "_name": "_9a039e36"
-  },
-  {
-    "name": "login-home",
-    "path": "/login-home",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\login-home.vue",
-    "chunkName": "pages/login-home",
-    "_name": "_7e780cf7"
-  },
-  {
     "name": "reset-password",
     "path": "/reset-password",
     "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\reset-password.vue",

@@ -11,7 +11,7 @@
 
     <!-- Navbar Brand-->
     <a class="navbar-brand" href="#">
-      <img src="~/assets/images/logo.png" />
+      <img src="~/assets/images/logo-login.png" />
     </a>
     <!-- Navbar Brand-->
 

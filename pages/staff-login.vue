@@ -1,7 +1,7 @@
 <template>
   <div class="bg-login bg-login-1">
     <div class="row login-box">
-      <!--<img src="~/assets/images/logo-login.png" />-->
+      <img src="~/assets/images/logo-login.png" />
       <Loader v-if="loader" />
       <form method="post" @submit.prevent="login">
         <div class="mb-3">
