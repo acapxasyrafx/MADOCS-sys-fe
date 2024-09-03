@@ -21,13 +21,6 @@
     "_name": "_1112b990"
   },
   {
-    "name": "user-registration",
-    "path": "/user-registration",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\user-registration.vue",
-    "chunkName": "pages/user-registration",
-    "_name": "_99a85412"
-  },
-  {
     "name": "verify-email",
     "path": "/verify-email",
     "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\verify-email.vue",
@@ -49,74 +42,11 @@
     "_name": "_2669aea6"
   },
   {
-    "name": "Modules-Inventory-inventory-record",
-    "path": "/Modules/Inventory/inventory-record",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Inventory\\\\inventory-record.vue",
-    "chunkName": "pages/Modules/Inventory/inventory-record",
-    "_name": "_817dd56a"
-  },
-  {
-    "name": "Modules-Inventory-item-category",
-    "path": "/Modules/Inventory/item-category",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Inventory\\\\item-category.vue",
-    "chunkName": "pages/Modules/Inventory/item-category",
-    "_name": "_436914df"
-  },
-  {
-    "name": "Modules-Sales-Report-monthly-group-report",
-    "path": "/Modules/Sales-Report/monthly-group-report",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Sales-Report\\\\monthly-group-report.vue",
-    "chunkName": "pages/Modules/Sales-Report/monthly-group-report",
-    "_name": "_78d2c47a"
-  },
-  {
-    "name": "Modules-Sales-Report-monthly-report",
-    "path": "/Modules/Sales-Report/monthly-report",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Sales-Report\\\\monthly-report.vue",
-    "chunkName": "pages/Modules/Sales-Report/monthly-report",
-    "_name": "_73aa7c6c"
-  },
-  {
-    "name": "Modules-Sales-Report-yearly-report",
-    "path": "/Modules/Sales-Report/yearly-report",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Sales-Report\\\\yearly-report.vue",
-    "chunkName": "pages/Modules/Sales-Report/yearly-report",
-    "_name": "_7331c7e2"
-  },
-  {
-    "name": "Modules-Sales-chart-account",
-    "path": "/Modules/Sales/chart-account",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Sales\\\\chart-account.vue",
-    "chunkName": "pages/Modules/Sales/chart-account",
-    "_name": "_19b8de75"
-  },
-  {
-    "name": "Modules-Sales-edit-sales",
-    "path": "/Modules/Sales/edit-sales",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Sales\\\\edit-sales.vue",
-    "chunkName": "pages/Modules/Sales/edit-sales",
-    "_name": "_1830ab3c"
-  },
-  {
-    "name": "Modules-Sales-ledger",
-    "path": "/Modules/Sales/ledger",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Sales\\\\ledger.vue",
-    "chunkName": "pages/Modules/Sales/ledger",
-    "_name": "_f53b567c"
-  },
-  {
-    "name": "Modules-Sales-new-sales",
-    "path": "/Modules/Sales/new-sales",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Sales\\\\new-sales.vue",
-    "chunkName": "pages/Modules/Sales/new-sales",
-    "_name": "_f0d09654"
-  },
-  {
-    "name": "Modules-Sales-sales-transaction",
-    "path": "/Modules/Sales/sales-transaction",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Sales\\\\sales-transaction.vue",
-    "chunkName": "pages/Modules/Sales/sales-transaction",
-    "_name": "_01a723d4"
+    "name": "Modules-Doctor-Management-doctor-record",
+    "path": "/Modules/Doctor-Management/doctor-record",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Doctor-Management\\\\doctor-record.vue",
+    "chunkName": "pages/Modules/Doctor-Management/doctor-record",
+    "_name": "_02184611"
   },
   {
     "name": "Modules-Setting-access-control",
