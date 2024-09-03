@@ -1,7 +1,7 @@
 <template>
   <div class="bg-login login-bg">
     <div class="row login-box">
-      <img src="~/assets/images/mentari.png" />
+     
       <div class="text mb-0">
         <h4>Password Reset</h4>
         <!-- <p>

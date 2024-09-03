@@ -1,7 +1,7 @@
 <template>
     <div class="bg-login bg-login-1">
       <div class="row login-box">
-        <img src="~/assets/images/logo-login.png" />
+        <!--<img src="~/assets/images/logo-login.png" />-->
         <h4>Create New Account</h4>
         <Loader v-if="loader" />
         <form class="mt-3" method="post" @submit.prevent="register">
