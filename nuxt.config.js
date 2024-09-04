@@ -7,7 +7,7 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Sales Reporting System",
+    title: "MADOCS",
     htmlAttrs: {
       lang: "en",
     },
@@ -98,16 +98,12 @@ export default {
       cancelButtonColor: '#ff7674'
   },
   axios: {
-    // baseURL: "http://122.176.47.222:85/mintari2/public/index.php/api/"
-    //baseURL:"http://192.168.1.15:8080/api/"
+  
      baseURL:"http://127.0.0.1:8000/api/"
-    //baseURL: "http://araken.asuscomm.com:8000/api/"
-    // baseURL: "https://mentari.moh.gov.my/point/api/"
+   
 
   },
 
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     babel: {
       compact: true,

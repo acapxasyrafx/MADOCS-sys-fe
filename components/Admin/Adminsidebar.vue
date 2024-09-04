@@ -4,9 +4,7 @@
       <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
         <div class="sb-sidenav-menu scrool">
           <div class="nav">
-            <!-- <a class="navbar-brand" href="#">
-              <img src="~/assets/images/mentari.png" />
-            </a> -->
+          
             <ul>
               <li class="sub-menu">
                 <a

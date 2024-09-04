@@ -1,7 +1,7 @@
 <template>
   <div class="bg-login">
     <div class="login-box">
-      <img src="~/assets/images/mentari.png" />
+     
       <div class="text">
         <h3>Welcome Back!</h3>
         <p>Please Log in to your account.</p>
