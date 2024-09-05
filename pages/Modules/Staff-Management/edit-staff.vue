@@ -94,24 +94,7 @@
                           </option>
                         </select>
                         </div>
-                        <div class="col-md-6 mb-4">
-                        <label for="managerfield" class="form-label">Reporting Manager<span style="color:red">*</span></label>
-                        <select
-                          id="managerfield"
-                          v-model="managerId"
-                          class="form-select"
-                          aria-label="Default select example"
-                        >
-                        <option value="">NOT APPLICABLE</option>
-                          <option
-                            v-for="manager in managerlist"
-                            v-bind:key="manager.staff_id"
-                            v-bind:value="manager.staff_id"
-                          >
-                            {{ manager.name }}
-                          </option>
-                        </select>
-                        </div>
+                       
                         </div>
                         <!--row 4-->
                         <div class="row">
@@ -141,7 +124,7 @@
                           <a href="/app/modules/staff-management/staff-record" class="btn btn-primary btn-text"><i class="fa fa-arrow-alt-to-left"></i> Back</a>
                           <div class="ml-auto" id="hidebutton" ref="hidebutton">
                             <button type="submit" @click.prevent="onDelete()" class="btn btn-danger btn-text"> <i class="fa fa-trash"></i> delete</button>
-                            <button type="submit" @submit.prevent="onUpdate" class="btn btn-success btn-text"> <i class="fa fa-save"></i> update</button>
+                            <button type="submit" @click.prevent="onUpdate()" class="btn btn-success btn-text"> <i class="fa fa-save"></i> update</button>
                           </div>
                         </div>
                       </form>
@@ -172,7 +155,6 @@
         status:"0",
         managerId:"",
         rolelist:[],
-        managerlist:[],
         errors: [],
         userdetails: null,
         nricerror: null,
@@ -185,11 +167,9 @@
     this.Id = urlParams.get("id"); //staff_id
   
       this.GetRoleList();
-      this.GetManagerList();
       this.GetStaffInfo();
 
       this.status="0";
-      this.managerId="";
     },
     mounted() {
     
@@ -216,10 +196,6 @@
         this.contact = response.data.list.contact_no;
         this.email = response.data.list.email;
         this.roleId = response.data.list.role_id;
-        this.managerId = response.data.list.manager_id;
-        if (response.data.list.manager_id == "" || response.data.list.manager_id == null)
-        {this.managerId=""
-        };
         this.status = response.data.list.status;
         
       }
@@ -233,19 +209,8 @@
         const response = await this.$axios.get("role/getRoleList",{headers});
         this.rolelist = response.data.list;
       },
-      async GetManagerList() {
-        const headers = {
-          Authorization: "Bearer " + this.userdetails.access_token,
-          Accept: "application/json",
-          "Content-Type": "application/json",
-        };
-
-        const response = await this.$axios.get("staff-record/getStaffList/" + "manager",{headers,});
-        this.managerlist = response.data.list;
-      },
-   
-      async onUpdate() {
   
+      async onUpdate() {
         this.$swal.fire({title: 'Update this record?',showCancelButton: true,confirmButtonText: 'Yes',cancelButtonText: 'Cancel',reverseButtons: true}
         ).then(async (result) =>{
 
@@ -295,8 +260,7 @@
       },
 
       async onDelete() {
-        
-            
+          
         this.$swal.fire({title: 'Are you sure you want to delete this record? <br>This action cannot be reverted.',showCancelButton: true,confirmButtonText: 'Yes',cancelButtonText: 'Cancel',reverseButtons: true}
                 ).then(async (result) =>{
 

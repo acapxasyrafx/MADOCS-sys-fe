@@ -150,13 +150,7 @@ export default {
       hasreportmodule: 0,
       message: null,
 
-      //setTimer: JSON.parse(localStorage.getItem("idleTimeout")),
-
-      //events: ['click', 'mousemove', 'mousedown', 'scroll', 'keypress', 'load'],
-
-      //warningTimer: null,
-      //logoutTimer: null,
-      //warningZone: false,
+    
     };
   },
   beforeMount() {
@@ -167,7 +161,7 @@ export default {
       this.role = this.userdetails.role.role_name;
     }
 
-    //this.getSessionSettings();
+  
     this.GetList();
 
   },
@@ -181,11 +175,7 @@ export default {
       })
     }, 1000);
 
-    //this.events.forEach(function (event) {
-    //  return window.addEventListener(event, this.resetTimer);
-    //}, this);
-
-    //this.setTimers();
+    
   },
  
   methods: {
@@ -193,9 +183,7 @@ export default {
       event.target.className += " active";
       alert(event.target.className);
     },
-    //SidebarAccess(val) {
-    //  localStorage.setItem("SidebarAccess", val.read_writes);
-    //},
+ 
     async GetList() {
       const headers = {
         Authorization: "Bearer " + this.userdetails.access_token,
@@ -223,14 +211,6 @@ export default {
       }
     },
 
- 
-
-    // INFO:: handling session auto logout.
-    //setTimers: function () {
-    //  this.warningTimer = setTimeout(this.warningMessage, this.setTimer * 60 * 1000);
-
-    //},
-
     async getSessionSettings() {
       const headers = {
         Authorization: "Bearer " + this.userdetails.access_token,
@@ -254,31 +234,6 @@ export default {
       }
     },
 
-    //warningMessage: function () {
-    //  let timerInterval
-    //  this.$swal.fire({
-    //    title: 'Are You There ?',
-    //    html: 'You will be log out if there is no activity in <b></b> seconds. Please click to dismiss this message.',
-    //    timer: 30 * 1000,
-    //    timerProgressBar: true,
-    //    didOpen: () => {
-    //      this.$swal.showLoading()
-    //      const b = this.$swal.getHtmlContainer().querySelector('b')
-    //      timerInterval = setInterval(() => {
-    //        this.$swal.getHtmlContainer().querySelector('b')
-    //          .textContent = (this.$swal.getTimerLeft() / 1000)
-    //            .toFixed(0)
-    //      }, 100)
-    //    },
-    //    willClose: () => {
-    //      clearInterval(timerInterval)
-    //    }
-    //  }).then((result) => {
-    //    if (result.dismiss === this.$swal.DismissReason.timer) {
-    //      this.logoutUser();
-    //    }
-    //  })
-    //},
 
     logoutUser: function () {
       localStorage.removeItem('userdetails');
@@ -287,7 +242,7 @@ export default {
 
     resetTimer: function () {
       clearTimeout(this.warningTimer);
-      //this.setTimers();
+   
     }
   },
 };
