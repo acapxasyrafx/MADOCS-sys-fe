@@ -3,98 +3,84 @@
     "name": "forget-password",
     "path": "/forget-password",
     "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\forget-password.vue",
-    "chunkName": "pages/forget-password",
-    "_name": "_10ba9c12"
+    "chunkName": "pages/forget-password"
   },
   {
     "name": "reset-password",
     "path": "/reset-password",
     "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\reset-password.vue",
-    "chunkName": "pages/reset-password",
-    "_name": "_3ae52c8d"
+    "chunkName": "pages/reset-password"
   },
   {
     "name": "staff-login",
     "path": "/staff-login",
     "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\staff-login.vue",
-    "chunkName": "pages/staff-login",
-    "_name": "_1112b990"
+    "chunkName": "pages/staff-login"
   },
   {
     "name": "verify-email",
     "path": "/verify-email",
     "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\verify-email.vue",
-    "chunkName": "pages/verify-email",
-    "_name": "_317773fc"
+    "chunkName": "pages/verify-email"
   },
   {
     "name": "Modules-change-password",
     "path": "/Modules/change-password",
     "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\change-password.vue",
-    "chunkName": "pages/Modules/change-password",
-    "_name": "_ee5cb776"
+    "chunkName": "pages/Modules/change-password"
   },
   {
     "name": "Modules-Dashboard-high-level-management",
     "path": "/Modules/Dashboard/high-level-management",
     "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Dashboard\\\\high-level-management.vue",
-    "chunkName": "pages/Modules/Dashboard/high-level-management",
-    "_name": "_2669aea6"
+    "chunkName": "pages/Modules/Dashboard/high-level-management"
   },
   {
     "name": "Modules-Doctor-Management-doctor-record",
     "path": "/Modules/Doctor-Management/doctor-record",
     "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Doctor-Management\\\\doctor-record.vue",
-    "chunkName": "pages/Modules/Doctor-Management/doctor-record",
-    "_name": "_02184611"
+    "chunkName": "pages/Modules/Doctor-Management/doctor-record"
   },
   {
     "name": "Modules-Setting-access-control",
     "path": "/Modules/Setting/access-control",
     "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Setting\\\\access-control.vue",
-    "chunkName": "pages/Modules/Setting/access-control",
-    "_name": "_703e565e"
+    "chunkName": "pages/Modules/Setting/access-control"
   },
   {
     "name": "Modules-Setting-roles-setting",
     "path": "/Modules/Setting/roles-setting",
     "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Setting\\\\roles-setting.vue",
-    "chunkName": "pages/Modules/Setting/roles-setting",
-    "_name": "_5b18721a"
+    "chunkName": "pages/Modules/Setting/roles-setting"
   },
   {
     "name": "Modules-Staff-Management-edit-staff",
     "path": "/Modules/Staff-Management/edit-staff",
     "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Staff-Management\\\\edit-staff.vue",
-    "chunkName": "pages/Modules/Staff-Management/edit-staff",
-    "_name": "_e24f41e0"
+    "chunkName": "pages/Modules/Staff-Management/edit-staff"
   },
   {
     "name": "Modules-Staff-Management-register-staff",
     "path": "/Modules/Staff-Management/register-staff",
     "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Staff-Management\\\\register-staff.vue",
-    "chunkName": "pages/Modules/Staff-Management/register-staff",
-    "_name": "_f384a22e"
+    "chunkName": "pages/Modules/Staff-Management/register-staff"
   },
   {
     "name": "Modules-Staff-Management-staff-record",
     "path": "/Modules/Staff-Management/staff-record",
     "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Staff-Management\\\\staff-record.vue",
-    "chunkName": "pages/Modules/Staff-Management/staff-record",
-    "_name": "_d88d835e"
+    "chunkName": "pages/Modules/Staff-Management/staff-record"
   },
   {
     "name": "Modules-Staff-Management-usermatrix-view",
     "path": "/Modules/Staff-Management/usermatrix-view",
     "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Staff-Management\\\\usermatrix-view.vue",
-    "chunkName": "pages/Modules/Staff-Management/usermatrix-view",
-    "_name": "_f68af13a"
+    "chunkName": "pages/Modules/Staff-Management/usermatrix-view"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_2d52e464"
+    "chunkName": "pages/index"
   }
 ]

@@ -11,7 +11,7 @@
 
     <!-- Navbar Brand-->
     <a class="navbar-brand" v-bind:href="route_alt">
-      <img src="~/assets/images/logo-login.png" />
+      <img src="~/assets/images/logo-2.png" />
     </a>
     <!-- Navbar Brand-->
 

@@ -95,24 +95,7 @@
                           </option>
                         </select>
                         </div>
-                        <div class="col-md-6 mb-4">
-                        <label for="managerfield" class="form-label">Reporting Manager<span style="color:red">*</span></label>
-                        <select
-                          id="managerfield"
-                          v-model="managerId"
-                          class="form-select"
-                          aria-label="Default select example"
-                        >
-                        <option value="">NOT APPLICABLE</option>
-                          <option
-                            v-for="manager in managerlist"
-                            v-bind:key="manager.staff_id"
-                            v-bind:value="manager.staff_id"
-                          >
-                            {{ manager.name }}
-                          </option>
-                        </select>
-                        </div>
+                       
                         </div>
                         <!--row 4-->
                         <div class="row">
@@ -170,9 +153,7 @@
         email: "",
         contact:"",
         status:"0",
-        managerId:"",
         rolelist:[],
-        managerlist:[],
         errors: [],
         userdetails: null,
         nricerror: null,
@@ -183,10 +164,8 @@
        
       this.userdetails = JSON.parse(localStorage.getItem("userdetails"));
       this.GetRoleList();
-      this.GetManagerList();
 
       this.status="0";
-      this.managerId="";
     },
     mounted() {
     
@@ -200,16 +179,6 @@
         };
         const response = await this.$axios.get("role/getRoleList",{headers});
         this.rolelist = response.data.list;
-      },
-      async GetManagerList() {
-        const headers = {
-          Authorization: "Bearer " + this.userdetails.access_token,
-          Accept: "application/json",
-          "Content-Type": "application/json",
-        };
-
-        const response = await this.$axios.get("staff-record/getStaffList/" + "manager",{headers,});
-        this.managerlist = response.data.list;
       },
    
       async onCreate() {
@@ -241,7 +210,6 @@
             body.append("contact_no", this.contact);
             body.append("email", this.email);
             body.append("role_id", this.roleId);
-            body.append("reporting_manager_id", this.managerId);
             body.append("added_by", this.userdetails.user.id);
             body.append("status",this.status);
             body.append("editId","");
