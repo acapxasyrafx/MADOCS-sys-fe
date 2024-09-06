@@ -2,10 +2,6 @@ import webpack from 'webpack'
 import PnpWebpackPlugin from "pnp-webpack-plugin";
 
 export default {
-  target: 'static',  // Use static target
-  generate: {
-    fallback: true, // For dynamic routes, e.g., 404.html
-  },
   router: {
     base: '/app/'
   },
@@ -125,5 +121,9 @@ export default {
       total:true
     },
   },
-  ssr: false
+  ssr: false,
+  target: 'static',  // Use static target
+  generate: {
+    fallback: true, // For dynamic routes, e.g., 404.html
+  },
 };
