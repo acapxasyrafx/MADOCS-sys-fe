@@ -92,7 +92,7 @@ export default defineNuxtConfig({
   },
 
   build: {
-    publicPath: '/app/_nuxt/',
+    publicPath: '/_nuxt/',
     babel: {
       compact: true,
     },
