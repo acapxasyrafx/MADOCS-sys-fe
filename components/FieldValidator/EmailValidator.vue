@@ -2,7 +2,8 @@
 <template>
     <div>
       <label for="emailfield" class="form-label">Email Address<span style="color:red">*</span></label>
-      <input type="email"  class="form-control" v-model="email" @input="validateEmail" placeholder="Enter a Valid Email Address" />
+      <input id="emailfield" type="email"  class="form-control" 
+      v-model="localemail" @input="validateEmail" placeholder="Enter a Valid Email Address" />
 
       <span v-if="emailError" style="color:red">{{ emailError }}</span>
     </div>
@@ -18,24 +19,27 @@
     },
     data() {
       return {
-        email: this.initialEmail,
+        localemail: this.initialEmail,
         emailError: null,
       };
     },
     methods: {
       validateEmail() {
         const emailPattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-        if (emailPattern.test(this.email)) {
+        if (emailPattern.test(this.localemail)) {
           this.emailError = null;
         } else {
           this.emailError = 'Please Enter Valid Email';
         }
+          // Emit updated value
+          this.$emit('input', this.localemail);
       },
+      
     },
     watch: {
-      email(value) {
-        this.$emit('update:email', value);
-        if (!value) this.emailError = null; // Clear error when email is reset
+      value(newValue) {
+      this.localemail = newValue; 
+      if (!newValue) this.emailErrorError = null; 
       },
     },
   };

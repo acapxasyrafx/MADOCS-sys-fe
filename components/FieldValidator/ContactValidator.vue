@@ -3,12 +3,14 @@
     <div>
       <label for="contactfield" class="form-label">Contact Number<span style="color:red">*</span></label>                      
       <input
+      id="contactfield"
         type="text"
-        v-model="contact"
+        v-model="localcontact"
         class="form-control"
         @input="validatePhoneNumber"
         @keydown="allowOnlyNumbers"
         placeholder="Enter mobile phone number"
+        maxlength="15"
       />
       <span v-if="phoneError" style="color:red">{{ phoneError }}</span>
     </div>
@@ -24,21 +26,23 @@
     },
     data() {
       return {
-        contact: this.initialPhoneNumber,
+        localcontact: this.initialPhoneNumber,
         phoneError: null,
       };
     },
     methods: {
       validatePhoneNumber() {
         // Ensure input only contains numbers
-        this.contact = this.contact.replace(/[^0-9]/g, ''); 
+        this.localcontact = this.localcontact.replace(/[^0-9]/g, ''); 
   
         // Check if the phone number is within a reasonable length (e.g., 10 to 15 digits)
-        if (this.contact.length < 10 || this.contact.length > 15) {
+        if (this.localcontact.length < 10 || this.localcontact.length > 15) {
           this.phoneError = 'Mobile number must be between 10 to 15 digits.';
         } else {
           this.phoneError = null; // Clear error if within limits
         }
+         // Emit updated value
+         this.$emit('input', this.localcontact);
       },
       allowOnlyNumbers(event) {
         if (!/[0-9]/.test(event.key) && event.key !== 'Backspace' && event.key !== 'Delete') {
@@ -47,9 +51,10 @@
       },
     },
     watch: {
-      contact(newValue) {
-        this.$emit('update:contact', newValue);
-      },
+      value(newValue) {
+      this.localcontact = newValue; 
+      if (!newValue) this.phoneError = null; 
+    },
     },
   };
   </script>
