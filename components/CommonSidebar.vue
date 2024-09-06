@@ -35,65 +35,6 @@
         </div>
       </nav>
     </div>
-    <div class="modal fade" id="insertpopup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-sm test-connection">
-        <div class="modal-content">
-          <div class="modal-body">
-            <p>Successfully Created</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary btn-ok" data-bs-dismiss="modal">
-              Ok
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade" id="updatepopup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-sm test-connection">
-        <div class="modal-content">
-          <div class="modal-body">
-            <p>Successfully Updated</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary btn-ok" data-bs-dismiss="modal">
-              Ok
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade" id="errorpopup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-sm test-connection">
-        <div class="modal-content">
-          <div class="modal-body">
-            <p>Something went wrong!</p>
-            <a>
-              {{ message }}
-            </a>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary btn-ok" data-bs-dismiss="modal">
-              Ok
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade" id="deletepopup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-sm test-connection">
-        <div class="modal-content">
-          <div class="modal-body">
-            <p>Succesfully Deleted</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary btn-ok" data-bs-dismiss="modal">
-              Ok
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 <script>
@@ -144,10 +85,7 @@ export default {
   data() {
     return {
       userdetails: null,
-      userdetailsforReport: null,
       navlist: [],
-      reportnavlist: [],
-      hasreportmodule: 0,
       message: null,
 
     
@@ -201,6 +139,7 @@ export default {
 
       if (response1.data.code == 200) {
         this.navlist = response1.data.list;
+       
       } else {
         this.$swal.fire({
           icon: 'error',

@@ -36,10 +36,22 @@
     "chunkName": "pages/Modules/Dashboard/high-level-management"
   },
   {
-    "name": "Modules-Doctor-Management-doctor-record",
-    "path": "/Modules/Doctor-Management/doctor-record",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Doctor-Management\\\\doctor-record.vue",
-    "chunkName": "pages/Modules/Doctor-Management/doctor-record"
+    "name": "Modules-Member-Managemen-edit-member",
+    "path": "/Modules/Member-Managemen/edit-member",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Member-Managemen\\\\edit-member.vue",
+    "chunkName": "pages/Modules/Member-Managemen/edit-member"
+  },
+  {
+    "name": "Modules-Member-Managemen-member-record",
+    "path": "/Modules/Member-Managemen/member-record",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Member-Managemen\\\\member-record.vue",
+    "chunkName": "pages/Modules/Member-Managemen/member-record"
+  },
+  {
+    "name": "Modules-Member-Managemen-new-member",
+    "path": "/Modules/Member-Managemen/new-member",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Member-Managemen\\\\new-member.vue",
+    "chunkName": "pages/Modules/Member-Managemen/new-member"
   },
   {
     "name": "Modules-Setting-access-control",
