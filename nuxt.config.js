@@ -124,5 +124,5 @@ export default defineNuxtConfig({
   target: 'static',  // Use static target
   generate: {
     fallback: true, // For dynamic routes, e.g., 404.html
-  },
-};
+  }
+})
