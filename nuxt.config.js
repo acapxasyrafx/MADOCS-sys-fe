@@ -122,5 +122,5 @@ export default defineNuxtConfig({
   },
   ssr: false,
   // target: 'development',
-  target: 'server',
+  target: 'static',
 })
