@@ -27,52 +27,20 @@
                         <!--row 1-->
                         <div class="row">
                           <div class="col-md-6 mb-3">
-                            <label for="namefield" class="form-label">Name<span style="color:red">*</span></label>
-                            <input
-                              id="namefield"
-                              type="text"
-                              class="form-control"
-                              placeholder="Enter Name"
-                              v-model="name"
-                              v-on:keypress="isLetter($event)"
-                            />
+                           <NameValidator v-model="name" />
                           </div>
 
                           <div class="col-md-6 mb-4">
-                            <label for="icfield" class="form-label">NRIC Number<span style="color:red">*</span></label>
-                            <input
-                            id="icfield"
-                              type="text"
-                              :maxlength="12"
-                              class="form-control"
-                              placeholder="Enter NRIC Number"
-                              v-model="nricno"
-                              v-on:keypress="NumbersOnly"/>
-                              <Error :message="nricerror" v-if="nricerror" />
+                            <NricValidator v-model="nricno" />
                           </div>
                         </div>
                         <!--row 2-->
                         <div class="row">
                           <div class="col-md-6 mb-4">
-                            <label for="contactfield" class="form-label">Contact Number<span style="color:red">*</span></label>
-                            <input
-                              id="contactfield"
-                              type="text"
-                              class="form-control"
-                              placeholder="Enter Contact Number"
-                              v-model="contact"
-                              :maxlength="12"
-                              v-on:keypress="NumbersOnly" />
+                           <ContactValidator v-model="contact" />
                           </div>
                           <div class="col-md-6 mb-4">
-                            <label for="emailfield" class="form-label">Email Address<span style="color:red">*</span></label>
-                            <input
-                              id="emailfield"
-                              type="text"
-                              class="form-control"
-                              placeholder="Enter Email Address"
-                              v-model="email"
-                              @blur="validateEmail" />
+                            <EmailValidator v-model="email" />
                           </div>
                         </div>
                         <!--row 3-->
@@ -100,9 +68,9 @@
                         <!--row 4-->
                         <div class="row">
                         <div class="col-md-6 mb-4">
-                        <label for="rolefield" class="form-label">Status<span style="color:red">*</span></label>
+                        <label for="statusfield" class="form-label">Status<span style="color:red">*</span></label>
                         <select
-                          id="rolefield"
+                          id="statusfield"
                           v-model="status"
                           class="form-select"
                           aria-label="Default select example"
@@ -116,10 +84,6 @@
                         
                         </div>
                         
-                        <!-- error message -->
-                        <p v-if="errors.length"><ul><li style="color:red"  v-for='err in errors' :key='err'>{{ err }}</li></ul></p>
-                        <br>
-                        <br>
                         <!--button-->
                         <div class="form-foter mt-3">
                           <a href="/app/modules/staff-management/staff-record" class="btn btn-primary btn-text"><i class="fa fa-arrow-alt-to-left"></i> Back</a>
@@ -141,8 +105,13 @@
   <script>
   import CommonHeader from '../../../components/CommonHeader.vue';
   import CommonSidebar from "../../../components/CommonSidebar.vue";
+  import EmailValidator from '../../../components/FieldValidator/EmailValidator.vue';
+  import NameValidator from '../../../components/FieldValidator/NameValidator.vue';
+  import NricValidator from '../../../components/FieldValidator/NricValidator.vue';
+  import ContactValidator from '../../../components/FieldValidator/ContactValidator.vue';
+
   export default {
-    components: { CommonSidebar, CommonHeader },
+    components: { CommonSidebar, CommonHeader, EmailValidator, NameValidator, NricValidator, ContactValidator },
     name: "new-staff",
     data() {
       return {
@@ -156,7 +125,7 @@
         rolelist:[],
         errors: [],
         userdetails: null,
-        nricerror: null,
+        nricerror:'',
         
       };
     },
@@ -171,6 +140,7 @@
     
     },
     methods: {
+
       async GetRoleList() {
         const headers = {
           Authorization: "Bearer " + this.userdetails.access_token,
@@ -179,6 +149,7 @@
         };
         const response = await this.$axios.get("role/getRoleList",{headers});
         this.rolelist = response.data.list;
+        
       },
    
       async onCreate() {
@@ -187,12 +158,14 @@
         ).then(async (result) =>{
 
           if (result.isConfirmed){
+
           this.errors = [];
           if (!this.name) {this.errors.push("Name is required.");}
           if (!this.nricno) {this.errors.push("NRIC Number is required.");}
           if (!this.contact) {this.errors.push("Contact Number is required.");}
           if (!this.email) {this.errors.push("Email is required.");}
           if (!this.roleId) {this.errors.push("Role  is required.");}
+
 
           if ((this.name && this.nricno && this.contact && this.email && this.roleId)) {
            
@@ -226,35 +199,13 @@
               this.$swal.fire({icon: 'error',title: 'Oops... Something Went Wrong!',text: 'the error is: ' + JSON.stringify(response.data.message)});
             }
           }
+          else{
+            await this.$swal.fire('Please Insert the Required Field','', 'error');
+          }
         }
         })
       },
   
-      //validation-email
-      async validateEmail() {
-        if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(this.email)) {
-          this.emailerror = null;
-        } else {
-          this.emailerror = "Please Enter Valid Email";
-          this.email = "";
-        }
-      },
-      //validation-name
-      async isLetter(e){
-          let char = String.fromCharCode(e.keyCode);
-          if(/^[A-Za-z\'@ ]+$/.test(char)) return true;
-          else e.preventDefault();
-      },
-      //validation-ic and contact no
-      NumbersOnly(evt) {
-        evt = (evt) ? evt : window.evt;
-        var charCode = (evt.which) ? evt.which : evt.keyCode;
-        if ((charCode > 31 && (charCode < 48 || charCode > 57)) && charCode !== 46) {
-          evt.preventDefault();;
-        } else {
-          return true;
-        }
-      },
       //isExist-Nric
       async CheckNric(event) {
         console.log("my body", event.target.value);

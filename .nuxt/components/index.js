@@ -8,6 +8,10 @@ export { default as AdminRolesaccess } from '../..\\components\\Admin\\rolesacce
 export { default as AdminRolesmatrix } from '../..\\components\\Admin\\rolesmatrix.vue'
 export { default as AdminScreenmanagement } from '../..\\components\\Admin\\screenmanagement.vue'
 export { default as AdminScreenpage } from '../..\\components\\Admin\\screenpage.vue'
+export { default as FieldValidatorContactValidator } from '../..\\components\\FieldValidator\\ContactValidator.vue'
+export { default as FieldValidatorEmailValidator } from '../..\\components\\FieldValidator\\EmailValidator.vue'
+export { default as FieldValidatorNameValidator } from '../..\\components\\FieldValidator\\NameValidator.vue'
+export { default as FieldValidatorNricValidator } from '../..\\components\\FieldValidator\\NricValidator.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

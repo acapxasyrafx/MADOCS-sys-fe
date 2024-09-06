@@ -28,5 +28,17 @@
   },
   "AdminScreenpage": {
     "description": "Auto imported from components/Admin/screenpage.vue"
+  },
+  "FieldValidatorContactValidator": {
+    "description": "Auto imported from components/FieldValidator/ContactValidator.vue"
+  },
+  "FieldValidatorEmailValidator": {
+    "description": "Auto imported from components/FieldValidator/EmailValidator.vue"
+  },
+  "FieldValidatorNameValidator": {
+    "description": "Auto imported from components/FieldValidator/NameValidator.vue"
+  },
+  "FieldValidatorNricValidator": {
+    "description": "Auto imported from components/FieldValidator/NricValidator.vue"
   }
 }
