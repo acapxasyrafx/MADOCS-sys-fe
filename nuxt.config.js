@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     },
     script: [
       {
-        src: "/app/js/scripts.js",
+        src: "./js/scripts.js",
         type: "text/javascript"
       },
       {
@@ -92,6 +92,7 @@ export default defineNuxtConfig({
   },
 
   build: {
+    publicPath: '/app/_nuxt/',
     babel: {
       compact: true,
     },
