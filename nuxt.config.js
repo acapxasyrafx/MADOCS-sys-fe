@@ -1,7 +1,9 @@
+import { defineNuxtConfig } from '@nuxt/bridge'
 import webpack from 'webpack'
 import PnpWebpackPlugin from "pnp-webpack-plugin";
 
-export default {
+export default defineNuxtConfig({
+  bridge: false,
   router: {
     base: '/app/'
   },
@@ -12,9 +14,6 @@ export default {
       lang: "en",
     },
     script:[
-      // {src:'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'},
-      // {src:'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'}
-
       // Add For Sidebar Menu
       {
         src: "/app/js/scripts.js",
@@ -124,4 +123,4 @@ export default {
   ssr: false,
   // target: 'development',
   target: 'server',
-};
+})

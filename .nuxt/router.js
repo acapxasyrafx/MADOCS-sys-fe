@@ -4,20 +4,20 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _10ba9c12 = () => interopDefault(import('..\\pages\\forget-password.vue' /* webpackChunkName: "pages/forget-password" */))
-const _3ae52c8d = () => interopDefault(import('..\\pages\\reset-password.vue' /* webpackChunkName: "pages/reset-password" */))
-const _1112b990 = () => interopDefault(import('..\\pages\\staff-login.vue' /* webpackChunkName: "pages/staff-login" */))
-const _317773fc = () => interopDefault(import('..\\pages\\verify-email.vue' /* webpackChunkName: "pages/verify-email" */))
-const _ee5cb776 = () => interopDefault(import('..\\pages\\Modules\\change-password.vue' /* webpackChunkName: "pages/Modules/change-password" */))
-const _2669aea6 = () => interopDefault(import('..\\pages\\Modules\\Dashboard\\high-level-management.vue' /* webpackChunkName: "pages/Modules/Dashboard/high-level-management" */))
-const _02184611 = () => interopDefault(import('..\\pages\\Modules\\Doctor-Management\\doctor-record.vue' /* webpackChunkName: "pages/Modules/Doctor-Management/doctor-record" */))
-const _703e565e = () => interopDefault(import('..\\pages\\Modules\\Setting\\access-control.vue' /* webpackChunkName: "pages/Modules/Setting/access-control" */))
-const _5b18721a = () => interopDefault(import('..\\pages\\Modules\\Setting\\roles-setting.vue' /* webpackChunkName: "pages/Modules/Setting/roles-setting" */))
-const _e24f41e0 = () => interopDefault(import('..\\pages\\Modules\\Staff-Management\\edit-staff.vue' /* webpackChunkName: "pages/Modules/Staff-Management/edit-staff" */))
-const _f384a22e = () => interopDefault(import('..\\pages\\Modules\\Staff-Management\\register-staff.vue' /* webpackChunkName: "pages/Modules/Staff-Management/register-staff" */))
-const _d88d835e = () => interopDefault(import('..\\pages\\Modules\\Staff-Management\\staff-record.vue' /* webpackChunkName: "pages/Modules/Staff-Management/staff-record" */))
-const _f68af13a = () => interopDefault(import('..\\pages\\Modules\\Staff-Management\\usermatrix-view.vue' /* webpackChunkName: "pages/Modules/Staff-Management/usermatrix-view" */))
-const _2d52e464 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _359fb11b = () => interopDefault(import('../pages/forget-password.vue' /* webpackChunkName: "pages/forget-password" */))
+const _e10c8e2e = () => interopDefault(import('../pages/reset-password.vue' /* webpackChunkName: "pages/reset-password" */))
+const _dc0e5748 = () => interopDefault(import('../pages/staff-login.vue' /* webpackChunkName: "pages/staff-login" */))
+const _31893150 = () => interopDefault(import('../pages/verify-email.vue' /* webpackChunkName: "pages/verify-email" */))
+const _4c27e4e0 = () => interopDefault(import('../pages/Modules/change-password.vue' /* webpackChunkName: "pages/Modules/change-password" */))
+const _71376914 = () => interopDefault(import('../pages/Modules/Dashboard/high-level-management.vue' /* webpackChunkName: "pages/Modules/Dashboard/high-level-management" */))
+const _6dfc95d9 = () => interopDefault(import('../pages/Modules/Doctor-Management/doctor-record.vue' /* webpackChunkName: "pages/Modules/Doctor-Management/doctor-record" */))
+const _b87b442a = () => interopDefault(import('../pages/Modules/Setting/access-control.vue' /* webpackChunkName: "pages/Modules/Setting/access-control" */))
+const _2be09ace = () => interopDefault(import('../pages/Modules/Setting/roles-setting.vue' /* webpackChunkName: "pages/Modules/Setting/roles-setting" */))
+const _2d5952b4 = () => interopDefault(import('../pages/Modules/Staff-Management/edit-staff.vue' /* webpackChunkName: "pages/Modules/Staff-Management/edit-staff" */))
+const _4e14308d = () => interopDefault(import('../pages/Modules/Staff-Management/register-staff.vue' /* webpackChunkName: "pages/Modules/Staff-Management/register-staff" */))
+const _d4684e16 = () => interopDefault(import('../pages/Modules/Staff-Management/staff-record.vue' /* webpackChunkName: "pages/Modules/Staff-Management/staff-record" */))
+const _90978b82 = () => interopDefault(import('../pages/Modules/Staff-Management/usermatrix-view.vue' /* webpackChunkName: "pages/Modules/Staff-Management/usermatrix-view" */))
+const _590d69f2 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -32,59 +32,59 @@ export const routerOptions = {
 
   routes: [{
     path: "/forget-password",
-    component: _10ba9c12,
+    component: _359fb11b,
     name: "forget-password"
   }, {
     path: "/reset-password",
-    component: _3ae52c8d,
+    component: _e10c8e2e,
     name: "reset-password"
   }, {
     path: "/staff-login",
-    component: _1112b990,
+    component: _dc0e5748,
     name: "staff-login"
   }, {
     path: "/verify-email",
-    component: _317773fc,
+    component: _31893150,
     name: "verify-email"
   }, {
     path: "/Modules/change-password",
-    component: _ee5cb776,
+    component: _4c27e4e0,
     name: "Modules-change-password"
   }, {
     path: "/Modules/Dashboard/high-level-management",
-    component: _2669aea6,
+    component: _71376914,
     name: "Modules-Dashboard-high-level-management"
   }, {
     path: "/Modules/Doctor-Management/doctor-record",
-    component: _02184611,
+    component: _6dfc95d9,
     name: "Modules-Doctor-Management-doctor-record"
   }, {
     path: "/Modules/Setting/access-control",
-    component: _703e565e,
+    component: _b87b442a,
     name: "Modules-Setting-access-control"
   }, {
     path: "/Modules/Setting/roles-setting",
-    component: _5b18721a,
+    component: _2be09ace,
     name: "Modules-Setting-roles-setting"
   }, {
     path: "/Modules/Staff-Management/edit-staff",
-    component: _e24f41e0,
+    component: _2d5952b4,
     name: "Modules-Staff-Management-edit-staff"
   }, {
     path: "/Modules/Staff-Management/register-staff",
-    component: _f384a22e,
+    component: _4e14308d,
     name: "Modules-Staff-Management-register-staff"
   }, {
     path: "/Modules/Staff-Management/staff-record",
-    component: _d88d835e,
+    component: _d4684e16,
     name: "Modules-Staff-Management-staff-record"
   }, {
     path: "/Modules/Staff-Management/usermatrix-view",
-    component: _f68af13a,
+    component: _90978b82,
     name: "Modules-Staff-Management-usermatrix-view"
   }, {
     path: "/",
-    component: _2d52e464,
+    component: _590d69f2,
     name: "index"
   }],
 

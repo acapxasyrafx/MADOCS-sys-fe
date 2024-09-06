@@ -11,9 +11,6 @@
   "Home": {
     "description": "Auto imported from components/Home.vue"
   },
-  "Loader": {
-    "description": "Auto imported from components/loader.vue"
-  },
   "Login": {
     "description": "Auto imported from components/Login.vue"
   },
@@ -23,11 +20,14 @@
   "Tutorial": {
     "description": "Auto imported from components/Tutorial.vue"
   },
-  "AdminAdminsidebar": {
-    "description": "Auto imported from components/Admin/Adminsidebar.vue"
+  "Loader": {
+    "description": "Auto imported from components/loader.vue"
   },
   "AdminToHeader": {
     "description": "Auto imported from components/Admin/Admin_ToHeader.vue"
+  },
+  "AdminAdminsidebar": {
+    "description": "Auto imported from components/Admin/Adminsidebar.vue"
   },
   "AdminModule1": {
     "description": "Auto imported from components/Admin/Module1.vue"
