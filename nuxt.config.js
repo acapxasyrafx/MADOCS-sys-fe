@@ -5,7 +5,7 @@ import PnpWebpackPlugin from "pnp-webpack-plugin";
 export default defineNuxtConfig({
   bridge: false,
   router: {
-    base: '/'
+    base: '/app/'
   },
   head: {
     title: "MADOCS",
