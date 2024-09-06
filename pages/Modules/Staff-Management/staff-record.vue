@@ -40,20 +40,18 @@
                       <th>Email</th>
                       <th>Contact No</th>
                       <th>Role</th>
-                      <th>Reporting Manager</th>
                       <th>Status</th>
                       <th style="width:5%">Action</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr v-for="(staff,index) in paginatedStaffList" :key="index">
-                      <td>#{{ index+1}}</td>
+                      <td>{{ index+1}}.</td>
                       <td>{{ staff.name }}</td>
                       <td>{{ staff.nric_no }}</td>
                       <td>{{ staff.email }}</td>
                       <td>{{ staff.contact_no }}</td>
                       <td>{{ staff.role }}</td>
-                      <td>{{staff.manager}}</td>
                       <td>{{staff.status}}</td>
                       <td>
                         <a @click="edit(staff)" class="view" title="edit staff profile"><em class="fa fa-edit"></em></a>
