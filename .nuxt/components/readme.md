@@ -16,3 +16,7 @@ You can directly use them in pages and other components without the need to impo
 - `<AdminRolesmatrix>` | `<admin-rolesmatrix>` (components/Admin/rolesmatrix.vue)
 - `<AdminScreenmanagement>` | `<admin-screenmanagement>` (components/Admin/screenmanagement.vue)
 - `<AdminScreenpage>` | `<admin-screenpage>` (components/Admin/screenpage.vue)
+- `<FieldValidatorContactValidator>` | `<field-validator-contact-validator>` (components/FieldValidator/ContactValidator.vue)
+- `<FieldValidatorEmailValidator>` | `<field-validator-email-validator>` (components/FieldValidator/EmailValidator.vue)
+- `<FieldValidatorNameValidator>` | `<field-validator-name-validator>` (components/FieldValidator/NameValidator.vue)
+- `<FieldValidatorNricValidator>` | `<field-validator-nric-validator>` (components/FieldValidator/NricValidator.vue)
