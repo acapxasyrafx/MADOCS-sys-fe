@@ -30,7 +30,6 @@
             <i class="fad fa-user"></i>
             <span>
               {{name}}
-              <!-- <small>Psychiatrist</small> -->
             </span>
           </a>
           <ul

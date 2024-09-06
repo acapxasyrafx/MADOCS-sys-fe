@@ -8,26 +8,8 @@
   "Error": {
     "description": "Auto imported from components/Error.vue"
   },
-  "Home": {
-    "description": "Auto imported from components/Home.vue"
-  },
   "Loader": {
     "description": "Auto imported from components/loader.vue"
-  },
-  "Login": {
-    "description": "Auto imported from components/Login.vue"
-  },
-  "NuxtLogo": {
-    "description": "Auto imported from components/NuxtLogo.vue"
-  },
-  "Tutorial": {
-    "description": "Auto imported from components/Tutorial.vue"
-  },
-  "AdminAdminsidebar": {
-    "description": "Auto imported from components/Admin/Adminsidebar.vue"
-  },
-  "AdminToHeader": {
-    "description": "Auto imported from components/Admin/Admin_ToHeader.vue"
   },
   "AdminModule1": {
     "description": "Auto imported from components/Admin/Module1.vue"
