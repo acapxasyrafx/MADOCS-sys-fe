@@ -42,25 +42,39 @@
     "_name": "_2669aea6"
   },
   {
-    "name": "Modules-Doctor-Management-doctor-record",
-    "path": "/Modules/Doctor-Management/doctor-record",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Doctor-Management\\\\doctor-record.vue",
-    "chunkName": "pages/Modules/Doctor-Management/doctor-record",
-    "_name": "_02184611"
+    "name": "Modules-Member-Management-edit-doctor",
+    "path": "/Modules/Member-Management/edit-doctor",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Member-Management\\\\edit-doctor.vue",
+    "chunkName": "pages/Modules/Member-Management/edit-doctor",
+    "_name": "_1b6a4f8f"
   },
   {
-    "name": "Modules-Doctor-Management-edit-doctor",
-    "path": "/Modules/Doctor-Management/edit-doctor",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Doctor-Management\\\\edit-doctor.vue",
-    "chunkName": "pages/Modules/Doctor-Management/edit-doctor",
-    "_name": "_0cf40c94"
+    "name": "Modules-Member-Management-edit-member",
+    "path": "/Modules/Member-Management/edit-member",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Member-Management\\\\edit-member.vue",
+    "chunkName": "pages/Modules/Member-Management/edit-member",
+    "_name": "_2cde138a"
   },
   {
-    "name": "Modules-Doctor-Management-new-submission",
-    "path": "/Modules/Doctor-Management/new-submission",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Doctor-Management\\\\new-submission.vue",
-    "chunkName": "pages/Modules/Doctor-Management/new-submission",
-    "_name": "_6cdf48b7"
+    "name": "Modules-Member-Management-member-record",
+    "path": "/Modules/Member-Management/member-record",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Member-Management\\\\member-record.vue",
+    "chunkName": "pages/Modules/Member-Management/member-record",
+    "_name": "_bba8dc1e"
+  },
+  {
+    "name": "Modules-Member-Management-new-member",
+    "path": "/Modules/Member-Management/new-member",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Member-Management\\\\new-member.vue",
+    "chunkName": "pages/Modules/Member-Management/new-member",
+    "_name": "_67de942a"
+  },
+  {
+    "name": "Modules-Member-Management-new-submission",
+    "path": "/Modules/Member-Management/new-submission",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Member-Management\\\\new-submission.vue",
+    "chunkName": "pages/Modules/Member-Management/new-submission",
+    "_name": "_611bdfdc"
   },
   {
     "name": "Modules-Setting-access-control",

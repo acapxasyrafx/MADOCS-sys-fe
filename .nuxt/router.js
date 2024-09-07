@@ -10,9 +10,9 @@ const _1112b990 = () => interopDefault(import('..\\pages\\staff-login.vue' /* we
 const _317773fc = () => interopDefault(import('..\\pages\\verify-email.vue' /* webpackChunkName: "pages/verify-email" */))
 const _ee5cb776 = () => interopDefault(import('..\\pages\\Modules\\change-password.vue' /* webpackChunkName: "pages/Modules/change-password" */))
 const _2669aea6 = () => interopDefault(import('..\\pages\\Modules\\Dashboard\\high-level-management.vue' /* webpackChunkName: "pages/Modules/Dashboard/high-level-management" */))
-const _02184611 = () => interopDefault(import('..\\pages\\Modules\\Doctor-Management\\doctor-record.vue' /* webpackChunkName: "pages/Modules/Doctor-Management/doctor-record" */))
-const _0cf40c94 = () => interopDefault(import('..\\pages\\Modules\\Doctor-Management\\edit-doctor.vue' /* webpackChunkName: "pages/Modules/Doctor-Management/edit-doctor" */))
-const _6cdf48b7 = () => interopDefault(import('..\\pages\\Modules\\Doctor-Management\\new-submission.vue' /* webpackChunkName: "pages/Modules/Doctor-Management/new-submission" */))
+const _2cde138a = () => interopDefault(import('..\\pages\\Modules\\Member-Management\\edit-member.vue' /* webpackChunkName: "pages/Modules/Member-Management/edit-member" */))
+const _bba8dc1e = () => interopDefault(import('..\\pages\\Modules\\Member-Management\\member-record.vue' /* webpackChunkName: "pages/Modules/Member-Management/member-record" */))
+const _67de942a = () => interopDefault(import('..\\pages\\Modules\\Member-Management\\new-member.vue' /* webpackChunkName: "pages/Modules/Member-Management/new-member" */))
 const _703e565e = () => interopDefault(import('..\\pages\\Modules\\Setting\\access-control.vue' /* webpackChunkName: "pages/Modules/Setting/access-control" */))
 const _5b18721a = () => interopDefault(import('..\\pages\\Modules\\Setting\\roles-setting.vue' /* webpackChunkName: "pages/Modules/Setting/roles-setting" */))
 const _e24f41e0 = () => interopDefault(import('..\\pages\\Modules\\Staff-Management\\edit-staff.vue' /* webpackChunkName: "pages/Modules/Staff-Management/edit-staff" */))
@@ -57,17 +57,17 @@ export const routerOptions = {
     component: _2669aea6,
     name: "Modules-Dashboard-high-level-management"
   }, {
-    path: "/Modules/Doctor-Management/doctor-record",
-    component: _02184611,
-    name: "Modules-Doctor-Management-doctor-record"
+    path: "/Modules/Member-Management/edit-member",
+    component: _2cde138a,
+    name: "Modules-Member-Management-edit-member"
   }, {
-    path: "/Modules/Doctor-Management/edit-doctor",
-    component: _0cf40c94,
-    name: "Modules-Doctor-Management-edit-doctor"
+    path: "/Modules/Member-Management/member-record",
+    component: _bba8dc1e,
+    name: "Modules-Member-Management-member-record"
   }, {
-    path: "/Modules/Doctor-Management/new-submission",
-    component: _6cdf48b7,
-    name: "Modules-Doctor-Management-new-submission"
+    path: "/Modules/Member-Management/new-member",
+    component: _67de942a,
+    name: "Modules-Member-Management-new-member"
   }, {
     path: "/Modules/Setting/access-control",
     component: _703e565e,
