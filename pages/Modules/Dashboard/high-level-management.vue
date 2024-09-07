@@ -22,7 +22,7 @@ import CommonHeader from '../../../components/CommonHeader.vue';
 import CommonSidebar from '../../../components/CommonSidebar.vue';
 export default {
   components: { CommonSidebar, CommonHeader },
-  name: "chart-account",
+  name: "dashboard",
   
   
   data() {

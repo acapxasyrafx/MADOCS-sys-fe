@@ -42,39 +42,32 @@
     "_name": "_2669aea6"
   },
   {
-    "name": "Modules-Member-Management-edit-doctor",
-    "path": "/Modules/Member-Management/edit-doctor",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Member-Management\\\\edit-doctor.vue",
-    "chunkName": "pages/Modules/Member-Management/edit-doctor",
-    "_name": "_1b6a4f8f"
+    "name": "Modules-Members-edit-members",
+    "path": "/Modules/Members/edit-members",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Members\\\\edit-members.vue",
+    "chunkName": "pages/Modules/Members/edit-members",
+    "_name": "_9b889c08"
   },
   {
-    "name": "Modules-Member-Management-edit-member",
-    "path": "/Modules/Member-Management/edit-member",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Member-Management\\\\edit-member.vue",
-    "chunkName": "pages/Modules/Member-Management/edit-member",
-    "_name": "_2cde138a"
+    "name": "Modules-Members-members-record",
+    "path": "/Modules/Members/members-record",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Members\\\\members-record.vue",
+    "chunkName": "pages/Modules/Members/members-record",
+    "_name": "_64ffd3aa"
   },
   {
-    "name": "Modules-Member-Management-member-record",
-    "path": "/Modules/Member-Management/member-record",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Member-Management\\\\member-record.vue",
-    "chunkName": "pages/Modules/Member-Management/member-record",
-    "_name": "_bba8dc1e"
+    "name": "Modules-Members-new-members",
+    "path": "/Modules/Members/new-members",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Members\\\\new-members.vue",
+    "chunkName": "pages/Modules/Members/new-members",
+    "_name": "_bc212294"
   },
   {
-    "name": "Modules-Member-Management-new-member",
-    "path": "/Modules/Member-Management/new-member",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Member-Management\\\\new-member.vue",
-    "chunkName": "pages/Modules/Member-Management/new-member",
-    "_name": "_67de942a"
-  },
-  {
-    "name": "Modules-Member-Management-new-submission",
-    "path": "/Modules/Member-Management/new-submission",
-    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Member-Management\\\\new-submission.vue",
-    "chunkName": "pages/Modules/Member-Management/new-submission",
-    "_name": "_611bdfdc"
+    "name": "Modules-Members-new-request",
+    "path": "/Modules/Members/new-request",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Members\\\\new-request.vue",
+    "chunkName": "pages/Modules/Members/new-request",
+    "_name": "_da1c25a8"
   },
   {
     "name": "Modules-Setting-access-control",
@@ -117,6 +110,83 @@
     "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\Modules\\\\Staff-Management\\\\usermatrix-view.vue",
     "chunkName": "pages/Modules/Staff-Management/usermatrix-view",
     "_name": "_f68af13a"
+  },
+  {
+    "name": "static-js-apexcharts.min",
+    "path": "/static/js/apexcharts.min",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\static\\\\js\\\\apexcharts.min.js",
+    "chunkName": "pages/static/js/apexcharts.min",
+    "_name": "_5ecb76ee"
+  },
+  {
+    "name": "static-js-bootstrap.bundle.min",
+    "path": "/static/js/bootstrap.bundle.min",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\static\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/static/js/bootstrap.bundle.min",
+    "_name": "_25e8005e"
+  },
+  {
+    "name": "static-js-datatables-simple-demo",
+    "path": "/static/js/datatables-simple-demo",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\static\\\\js\\\\datatables-simple-demo.js",
+    "chunkName": "pages/static/js/datatables-simple-demo",
+    "_name": "_4cc9a338"
+  },
+  {
+    "name": "static-js-dataTables.bootstrap5.min",
+    "path": "/static/js/dataTables.bootstrap5.min",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\static\\\\js\\\\dataTables.bootstrap5.min.js",
+    "chunkName": "pages/static/js/dataTables.bootstrap5.min",
+    "_name": "_5fbe4ac0"
+  },
+  {
+    "name": "static-js-fullcalendar",
+    "path": "/static/js/fullcalendar",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\static\\\\js\\\\fullcalendar.js",
+    "chunkName": "pages/static/js/fullcalendar",
+    "_name": "_4e6fdf97"
+  },
+  {
+    "name": "static-js-jquery-3.5.1",
+    "path": "/static/js/jquery-3.5.1",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\static\\\\js\\\\jquery-3.5.1.js",
+    "chunkName": "pages/static/js/jquery-3.5.1",
+    "_name": "_b0237394"
+  },
+  {
+    "name": "static-js-jquery.dataTables.min",
+    "path": "/static/js/jquery.dataTables.min",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\static\\\\js\\\\jquery.dataTables.min.js",
+    "chunkName": "pages/static/js/jquery.dataTables.min",
+    "_name": "_7b379647"
+  },
+  {
+    "name": "static-js-jquery.richtext",
+    "path": "/static/js/jquery.richtext",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\static\\\\js\\\\jquery.richtext.js",
+    "chunkName": "pages/static/js/jquery.richtext",
+    "_name": "_b354495e"
+  },
+  {
+    "name": "static-js-jquery.table2excel.min",
+    "path": "/static/js/jquery.table2excel.min",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\static\\\\js\\\\jquery.table2excel.min.js",
+    "chunkName": "pages/static/js/jquery.table2excel.min",
+    "_name": "_ba917386"
+  },
+  {
+    "name": "static-js-scripts",
+    "path": "/static/js/scripts",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\static\\\\js\\\\scripts.js",
+    "chunkName": "pages/static/js/scripts",
+    "_name": "_5f4cdc42"
+  },
+  {
+    "name": "static-js-select2.min",
+    "path": "/static/js/select2.min",
+    "component": "C:\\\\Users\\\\hazizi.suhaibul\\\\Desktop\\\\MADOCS-sys-fe\\\\pages\\\\static\\\\js\\\\select2.min.js",
+    "chunkName": "pages/static/js/select2.min",
+    "_name": "_dd70f920"
   },
   {
     "name": "index",

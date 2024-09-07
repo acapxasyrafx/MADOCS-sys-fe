@@ -1,4 +1,5 @@
 <template>
+  
     <div id="layoutSidenav">
       <CommonSidebar />
       <div id="layoutSidenav_content">
@@ -86,7 +87,7 @@
                         
                         <!--button-->
                         <div class="form-foter mt-3">
-                          <a href="/app/modules/staff-management/staff-record" class="btn btn-primary btn-text"><i class="fa fa-arrow-alt-to-left"></i> Back</a>
+                          <a href="/modules/staff-management/staff-record" class="btn btn-primary btn-text"><i class="fa fa-arrow-alt-to-left"></i> Back</a>
                           <div class="ml-auto" id="hidebutton" ref="hidebutton">
                             <button type="submit" class="btn btn-success btn-text"> <i class="fa fa-save"></i> Add New</button>
                           </div>

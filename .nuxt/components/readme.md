@@ -10,6 +10,7 @@ You can directly use them in pages and other components without the need to impo
 - `<CommonSidebar>` | `<common-sidebar>` (components/CommonSidebar.vue)
 - `<Error>` | `<error>` (components/Error.vue)
 - `<Loader>` | `<loader>` (components/loader.vue)
+- `<NetworkStatus>` | `<network-status>` (components/NetworkStatus.vue)
 - `<AdminModule1>` | `<admin-module1>` (components/Admin/Module1.vue)
 - `<AdminModule2>` | `<admin-module2>` (components/Admin/Module2.vue)
 - `<AdminRolesaccess>` | `<admin-rolesaccess>` (components/Admin/rolesaccess.vue)

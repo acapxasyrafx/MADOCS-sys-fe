@@ -43,20 +43,20 @@ export default {
   head: {
     script: [
       {
-        src: "/app/js/bootstrap.bundle.min.js",
+        src: "/js/bootstrap.bundle.min.js",
         body: true,
         crossorigin: "anonymous",
         type: "text/javascript",
       },
       {
-        src: "/app/js/scripts.js",
+        src: "/js/scripts.js",
         body: true,
         crossorigin: "anonymous",
         type: "text/javascript",
       },
     
       {
-        src: "/app/js/jquery.dataTables.min.js",
+        src: "/js/jquery.dataTables.min.js",
         body: true,
         crossorigin: "anonymous",
         type: "text/javascript",

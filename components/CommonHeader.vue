@@ -39,7 +39,7 @@
            
             <li><hr class="dropdown-divider" /></li>
             <li><a class="dropdown-item" style="cursor:pointer;" @click="Logout()">Logout</a></li>
-            <li><a href="/app/modules/change-password" class="dropdown-item">Change Password</a></li>
+            <li><a href="/modules/change-password" class="dropdown-item">Change Password</a></li>
           </ul>
         </li>
       </ul>

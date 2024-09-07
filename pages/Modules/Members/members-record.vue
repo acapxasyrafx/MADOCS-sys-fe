@@ -6,7 +6,7 @@
         <main>
           <div class="container-fluid px-4">
             <div class="page-title">
-              <h1>Doctor Management</h1>
+              <h1>Our Members</h1>
               <div class="btn-group-a">
                 <a @click="addstaff()" class="add-btn"><em class="fa fa-plus"></em></a>
               </div>
@@ -15,7 +15,7 @@
             <div class="card mb-4">
                 <div class="card-header icon-title">
                             <a href="#"><i class="fa fa-users"></i></a>
-                            <h4>List of Doctor</h4>
+                            <h4>List of Members</h4>
                         </div>
               <div class="card-body">
                 <div class="search-table">
@@ -27,6 +27,13 @@
                         <input type="text" class="form-control" v-model="filterText" placeholder="Filter by name or nric number"/>
                       </div>
                     </div>
+                      <!-- Add buttons for filtering by expiry -->
+              <div class="filter-buttons mb-3">
+                <button @click="filterExpiry('6-month')" class="btn btn-info">Within 6 Months</button>
+                <button @click="filterExpiry('3-month')" class="btn btn-warning">Within 3 Months</button>
+                <button @click="filterExpiry('expired')" class="btn btn-danger">Expired</button>
+                <button @click="clearFilter" class="btn btn-secondary">Clear Filter</button>
+              </div>
                   </div>
                 </div>
                 <!-- search-table -->
@@ -35,11 +42,12 @@
                   <thead>
                     <tr>
                       <th>No</th>
-                      <th>Doctor's Name</th>
+                      <th>Name</th>
                       <th>NRIC No</th>
                       <th>Email</th>
                       <th>Contact No</th>
                       <th>Reg. Number</th>
+                      <th>Expiry Date</th>
                       <th>Status</th>
                       <th style="width:5%">Action</th>
                     </tr>
@@ -51,7 +59,8 @@
                       <td>{{ staff.nric_no }}</td>
                       <td>{{ staff.email }}</td>
                       <td>{{ staff.contact_no }}</td>
-                      <td>{{ staff.role }}</td>
+                      <td>A9999998</td>
+                      <td>31-12-2028</td>
                       <td>{{staff.status}}</td>
                       <td>
                         <a @click="edit(staff)" class="view" title="edit staff profile"><em class="fa fa-edit"></em></a>

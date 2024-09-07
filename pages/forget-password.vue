@@ -35,12 +35,12 @@ export default {
   head: {
     script: [
       {
-        src: "/app/js/bootstrap.bundle.min.js",
+        src: "/js/bootstrap.bundle.min.js",
         body: true,
         crossorigin: "anonymous",
       },
       {
-        src: "/app/js/scripts.js",
+        src: "/js/scripts.js",
         body: true,
         crossorigin: "anonymous",
       },
