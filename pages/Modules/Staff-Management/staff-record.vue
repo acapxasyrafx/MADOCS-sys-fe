@@ -85,9 +85,10 @@
   <script>
   import CommonHeader from '../../../components/CommonHeader.vue';
   import CommonSidebar from '../../../components/CommonSidebar.vue';
+ 
 
   export default {
-    components: { CommonSidebar, CommonHeader },
+    components: { CommonSidebar, CommonHeader},
     name: "staff-record",
     setup() {},
    
@@ -102,6 +103,8 @@
         userdetails: null,
         alllist:[],
         filterText: '',
+
+        
       };
     },
   
