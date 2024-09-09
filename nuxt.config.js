@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     },
     script: [
       {
-        src: "./js/scripts.js",
+        src: "/js/scripts.js",
         type: "text/javascript"
       },
       {
@@ -89,6 +89,7 @@ export default defineNuxtConfig({
 
   axios: {
     baseURL: "http://127.0.0.1:8000/api/"
+    //baseURL: "https://madocs-be-dev-704639301453.us-central1.run.app/api/"
   },
 
   build: {

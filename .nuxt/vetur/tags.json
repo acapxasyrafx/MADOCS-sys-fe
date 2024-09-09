@@ -1,0 +1,47 @@
+{
+  "CommonHeader": {
+    "description": "Auto imported from components/CommonHeader.vue"
+  },
+  "CommonSidebar": {
+    "description": "Auto imported from components/CommonSidebar.vue"
+  },
+  "Error": {
+    "description": "Auto imported from components/Error.vue"
+  },
+  "Loader": {
+    "description": "Auto imported from components/loader.vue"
+  },
+  "NetworkStatus": {
+    "description": "Auto imported from components/NetworkStatus.vue"
+  },
+  "AdminModule1": {
+    "description": "Auto imported from components/Admin/Module1.vue"
+  },
+  "AdminModule2": {
+    "description": "Auto imported from components/Admin/Module2.vue"
+  },
+  "AdminRolesaccess": {
+    "description": "Auto imported from components/Admin/rolesaccess.vue"
+  },
+  "AdminRolesmatrix": {
+    "description": "Auto imported from components/Admin/rolesmatrix.vue"
+  },
+  "AdminScreenmanagement": {
+    "description": "Auto imported from components/Admin/screenmanagement.vue"
+  },
+  "AdminScreenpage": {
+    "description": "Auto imported from components/Admin/screenpage.vue"
+  },
+  "FieldValidatorContactValidator": {
+    "description": "Auto imported from components/FieldValidator/ContactValidator.vue"
+  },
+  "FieldValidatorEmailValidator": {
+    "description": "Auto imported from components/FieldValidator/EmailValidator.vue"
+  },
+  "FieldValidatorNameValidator": {
+    "description": "Auto imported from components/FieldValidator/NameValidator.vue"
+  },
+  "FieldValidatorNricValidator": {
+    "description": "Auto imported from components/FieldValidator/NricValidator.vue"
+  }
+}

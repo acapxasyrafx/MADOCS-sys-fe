@@ -16,7 +16,7 @@
 
         <div class="mb-3 password">
           <label for="inputPassword">Password</label>
-          <a class="small ml-auto forgot-password" href="/app/forget-password"
+          <a class="small ml-auto forgot-password" href="/forget-password"
             >Forgot Password?</a
           >
           <input
@@ -44,12 +44,12 @@ export default {
   head: {
     script: [
       {
-        src: "/app/js/bootstrap.bundle.min.js",
+        src: "/js/bootstrap.bundle.min.js",
         body: true,
         crossorigin: "anonymous",
       },
       {
-        src: "/app/js/scripts.js",
+        src: "/js/scripts.js",
         body: true,
         crossorigin: "anonymous",
       },
