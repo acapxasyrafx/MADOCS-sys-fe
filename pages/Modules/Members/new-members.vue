@@ -6,7 +6,7 @@
         <main>
           <div class="container-fluid px-4">
             <div class="page-title">
-              <h1>Doctor Management</h1>
+              <h1>Members Management</h1>
               <div class="btn-group-a">
                 <a @click="addstaff()" class="add-btn"><em class="fa fa-plus"></em></a>
               </div>
@@ -15,7 +15,7 @@
             <div class="card mb-4">
                 <div class="card-header icon-title">
                             <a href="#"><i class="fa fa-users"></i></a>
-                            <h4>List of Doctor</h4>
+                            <h4>List of New Registration Request</h4>
                         </div>
               <div class="card-body">
                 <div class="search-table">

@@ -121,7 +121,7 @@
                         <br>
                         <!--button-->
                         <div class="form-foter mt-3">
-                          <a href="/app/modules/staff-management/staff-record" class="btn btn-primary btn-text"><i class="fa fa-arrow-alt-to-left"></i> Back</a>
+                          <a href="/modules/staff-management/staff-record" class="btn btn-primary btn-text"><i class="fa fa-arrow-alt-to-left"></i> Back</a>
                           <div class="ml-auto" id="hidebutton" ref="hidebutton">
                             <button type="submit" @click.prevent="onDelete()" class="btn btn-danger btn-text"> <i class="fa fa-trash"></i> delete</button>
                             <button type="submit" @click.prevent="onUpdate()" class="btn btn-success btn-text"> <i class="fa fa-save"></i> update</button>

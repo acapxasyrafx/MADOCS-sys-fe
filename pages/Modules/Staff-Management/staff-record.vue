@@ -85,9 +85,11 @@
   <script>
   import CommonHeader from '../../../components/CommonHeader.vue';
   import CommonSidebar from '../../../components/CommonSidebar.vue';
+  import NetworkStatus from '../../../components/NetworkStatus.vue';
+ 
 
   export default {
-    components: { CommonSidebar, CommonHeader },
+    components: { CommonSidebar, CommonHeader, NetworkStatus},
     name: "staff-record",
     setup() {},
    
@@ -102,6 +104,8 @@
         userdetails: null,
         alllist:[],
         filterText: '',
+
+        
       };
     },
   
@@ -153,6 +157,9 @@
           }
         },
       async GetList() {
+        if (!navigator.onLine) {
+          await this.$swal.fire('No network connectivity. Please check your internet connection and refresh the page','', 'error');
+        }else{
         const headers = {
           Authorization: "Bearer " + this.userdetails.access_token,
           Accept: "application/json",
@@ -168,6 +175,8 @@
          
           this.alllist = [];
         }
+      }
+      
       },
       async edit(data) {
     
